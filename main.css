@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  align-items: flex-start;
+  text-align: left;
+  background: black;
+  color: white;
+}
+
+a,
+a:visited {
+  color: #be77f3;
+}
+
+img {
+  max-width: 600px;
+}
